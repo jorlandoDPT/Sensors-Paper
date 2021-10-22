@@ -7,8 +7,11 @@ Athylia Paremski, Matthew Amodeo and Michele Lobo
 Requires 4 functions: 
 importTimingfile.m
 epoch2datestr.m
-MultiplyQuaternions.m
-RotateVector.m
+MultiplyQuaternions.m*
+RotateVector.m*
+*These functions are available here: http://community.apdm.com/hc/en-us/articles/214504186-Using-orientation-estimates-to-convert-from-sensor-frame-to-Earth-frame-of-refernce
+as I do not own them, I will refer you to the source. 
+
 
 2 input files:
 Timestamps.xlsx with 3 columns: filename, startTime, stopTime
