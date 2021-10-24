@@ -42,7 +42,7 @@ To recreate what is seen in the paper, please run `OpenSource_Validation_Sensor_
 
 The figures generated from the code should look something like the figure below: 
 
-![](EXtotal.png)
+![](ex_total.png)
 
 
 
