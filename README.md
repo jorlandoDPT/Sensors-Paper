@@ -1,4 +1,5 @@
-# Sensors-Paper
+# Sensors-Quantifying Active vs. Sedentary Time During Floor Play in Pre-Ambulatory Children with Cerebral Palsy
+
 
 Open Source MATLAB code developed by Julie M. Orlando in collaboration with section contributions from Jocelyn Hafer (signal processing expert) and in consultation with Laura Prosser, Beth Smith, Athylia Paremski, Matthew Amodeo and Michele Lobo.
 
