@@ -50,7 +50,7 @@ timingData = importTimingfile('Timestamps.xlsx','Sheet1','A1:F10'); %change file
 %% folder with datsasets in it
 % put all the subfolders into a folder named Datasets and add it to this
 % folder 
-dataPath = '/Users/orlandoj1/Desktop/Methods Paper/Program'; %(Edit this based on the computer and the user) 
+dataPath = '/Users/ENTER/DATA/PATH'; %(Edit this based on the computer and the user) 
 % get subfolders each of which contain data files
 dataDirectories = dir(dataPath);
 % get only names of folders
@@ -170,79 +170,7 @@ for ii = start:endfile  %user updates
     stop_button_push_diff = time(end) - button_2_sec; %Time elapsed after button push (after end of session)
     time_total_diff = time(end)- time(1); %Total recoreded time
 
-    %synch sensor and video data- comment section in as needed. 
-   
-    %%used with video data for EM039
-    % video_time_removal = 1856.744; %in sec
-    % sensor_time_removal = 1942.267; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 43.453; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 128.595; %in sec, time of button press 1 on sensor (same as button_1)
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place; 
-
-    %%used with video data for LL004
-    % video_time_removal = 1848.580; %in sec
-    % sensor_time_removal = 1846.735; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 9.112; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 6.724; %in sec, time of button press 1 on sensor (same as button_1)
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place; 
-
-    %%used with video data for LL006
-    % video_time_removal = 1849.182; %in sec
-    % sensor_time_removal = 1846.934; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 11.356; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 9.108; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place; 
-
-    %%used with video data for LL011
-    % video_time_removal = 1867.314; %in sec
-    % sensor_time_removal = 1866.209; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 14.688; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 13.587; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place; 
-
-    %%used with video data for LL014
-    % video_time_removal = 1847.336; %in sec
-    % sensor_time_removal = 1845.035; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 15.402; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 13.101; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place;
-
-    %%used with video data for LL015
-    % video_time_removal = 1865.212; %in sec
-    % sensor_time_removal = 1859.750; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 19.516; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 14.054; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place;
-
-    %%used with video data for LL018
-    % video_time_removal = 1860.650; %in sec
-    % sensor_time_removal = 1854.778; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 32.427; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 26.556; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place;
-
-    % %used with video data for LL019
-    % video_time_removal = 1832.961; %in sec
-    % sensor_time_removal = 1826.645; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 8.058; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 1.742; %in sec, time of button press 1 on sensor (same as button_8)
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place; 
-
-   % %%used with video data for LL025
-    % video_time_removal = 1854.734; %in sec
-    % sensor_time_removal = 1847.938; %in sec
-    % video_time_start = 0; %in sec
-    % video_time_in_place = 21.939; %in sec, time in the video when "button is pressed"
-    % sensor_time_in_place = 16.143; %in sec, time of button press 1 on sensor
-    % video_sensor_difference = sensor_time_in_place - video_time_in_place;
+    %synch sensor and video data EXAMPLE PROVIDED FOR ONE PARTICIPANT. 
 
     % %%used with video data for LL028
     video_time_removal = 1840.842; %in sec
